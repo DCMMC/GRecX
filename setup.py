@@ -22,7 +22,8 @@ setup(
     install_requires=[
         "tf_geometric >= 0.0.77",
         "numpy >= 1.17.4",
-        "tensorflow == 2.4.1",
+        # "tensorflow == 2.4.1",
+        "tensorflow",
         "scikit-learn >= 0.22",
         "tqdm",
         "Sphinx == 3.5.4",
